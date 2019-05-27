@@ -4,6 +4,7 @@ alias pip="pip3"
 
 # git
 alias ga="git add"
+alias gaa="git add ."
 alias gap="git add -p"
 alias gc="git commit"
 alias gcm="git commit -m"
