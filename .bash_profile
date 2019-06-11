@@ -1,3 +1,7 @@
+# Leiningen
+
+export PATH=~/Library/Leiningen:$PATH
+
 # android
 
 export PATH=~/Library/Android/sdk/tools:$PATH
