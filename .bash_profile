@@ -44,6 +44,9 @@ if [ -f '/Users/jessepalmer/google-cloud-sdk/path.bash.inc' ]; then . '/Users/je
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jessepalmer/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/jessepalmer/google-cloud-sdk/completion.bash.inc'; fi
 
+# MySQL
+export PATH="/usr/local/mysql/bin:$PATH"
+
 # loads aliases
 if [ -f $HOME/.bash_aliases ]
 then
