@@ -47,6 +47,9 @@ if [ -f '/Users/jessepalmer/google-cloud-sdk/completion.bash.inc' ]; then . '/Us
 # MySQL
 export PATH="/usr/local/mysql/bin:$PATH"
 
+# nand2tetris
+export PATH=$PATH:~/software/nand2tetris/tools
+
 # loads aliases
 if [ -f $HOME/.bash_aliases ]
 then
